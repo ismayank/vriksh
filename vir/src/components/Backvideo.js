@@ -1,15 +1,15 @@
 import React from 'react';
-import '../css/BackVideo.css';
-import backgroundVideo from '../resources/back.mp4'; 
+import backgroundVideo from '../resources/back.mp4';
+
 const BackVideo = () => {
   return (
     <video
-      className="back-video"
+      className="absolute inset-0 md:w-full md:h-full mb-10 object-cover sm:w-auto sm:h-auto sm:max-w-none"
       autoPlay
       loop
       muted
     >
-      <source src={require('../resources/back.mp4')} type="video/mp4" />
+      <source src={backgroundVideo} type="video/mp4" />
     </video>
   );
 }

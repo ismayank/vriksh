@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar";
 import BackgroundVideo from "./components/Backvideo";
-import Button from "./components/Button"; // Import Button component
+import Button from "./components/Button";
 import Secondpage from "./components/Secondpage";
 import Thirdpage from "./components/Thirdpage";
 import Fourthpage from "./components/Fourthpage";
