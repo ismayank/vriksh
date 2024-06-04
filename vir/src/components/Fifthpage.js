@@ -4,28 +4,47 @@ import bar2 from "../resources/blackov.svg";
 import bar1 from "../resources/black.svg";
 
 const Fifthpage = () => {
-    return (
-        <div className="mb-[3.2rem]">
-            <h1 className="font-jost text-base sm:text-5xl font-semibold leading-9 py-2 text-center text-black mt-20">number of trees planted by vriksh</h1>
-            <div>
-            <div className="text-left mx-[1.2rem] sm:mt-20 sm:ml-20">
-                <h1 className="font-inter text-xs sm:text-4xl font-semibold sm:leading-9 mb-5 sm:ml-24">Trees in the forest  
-                <span className="font-inter text-xs sm:text-4xl font-semibold leading-9 mb-5 ml-[30rem]">Trees this month </span></h1>
-                <div className="relative inline-block mr-52">
-                <div className="relative top-10 left-8 justify-start text-xl font-inter text-left z-30 font-bold text-black">1334567</div>
-                <img src={bar1} className="relative top-0 left-0 z-10" />
-                <img src={bar2} className=" absolute top-7 left-0 z-20" />
-                </div>
-                <div className="relative inline-block">
-                <div className="relative top-10 left-8 justify-start text-xl font-inter text-left z-30 font-bold text-black">1294338</div>
-                <img src={bar1} className="relative top-0 left-0 z-10" />
-                <img src={bar3} className="absolute top-7 left-0 z-20" />
-                </div>
-                </div>  
-       </div>
+  return (
+    <div className="mb-[3.2rem]">
+      <h1 className="font-jost text-base mb-7 sm:mb-40 sm:text-5xl font-semibold leading-9 py-2 text-center text-black mt-20">
+        number of trees planted by vriksh
+      </h1>
+      <div class="text-left mx-[1.2rem] sm:mt-20 sm:ml-20">
+  <div class="sm:flex sm:items-center ml-5 mr-8 sm:mr-10 sm:ml-5 sm:mb-5">
+    <div class="sm:mb-0">
+      <h1 class="font-inter text-xs sm:text-4xl text-left sm:text-center font-semibold sm:leading-9 ml-1 sm:ml-0">
+        Trees in the forest
+      </h1>
+      <div class="relative inline-block">
+        
+        
+        <img src={bar1} class="relative mt-4 sm:mt-10 sm:top-0 sm:left-0 z-10 w-[20rem] sm:w-auto" />
+      
+        <img src={bar2} class="absolute top-4 sm:top-10 left-0 z-20 w-[9rem] sm:w-auto" />
+        <div class="relative top-[-1.8rem] sm:top-[-2.5rem] left-5 text-lg sm:text-xl font-inter font-bold text-black z-30">
+          1334567
         </div>
+        
+      </div>
+    </div>
+    <div class="mr-4 ml-1 sm:mt-0 sm:ml-40">
+      <h1 class="font-inter text-xs sm:text-4xl text-left sm:text-center font-semibold sm:leading-9 ml-1 sm:ml-0">
+        Trees this month
+      </h1>
+      <div class="relative inline-block">
+        
+        <img src={bar1} class="relative mt-3 sm:mt-10 top-0 left-0 z-10 w-[20rem] sm:w-auto" />
+        <img src={bar3} class="absolute top-3 sm:top-10 left-0 z-20 w-[15rem] sm:w-auto" />
+        <div class="relative top-[-1.8rem] sm:top-[-2.5rem] left-5 text-lg sm:text-xl font-inter font-bold text-black z-30">
+          1294338
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-    );
+    </div>
+  );
 };
 
 export default Fifthpage;
